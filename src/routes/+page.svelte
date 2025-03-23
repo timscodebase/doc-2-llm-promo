@@ -1,6 +1,22 @@
 
 <svelte:head>
-  <title>Doc 2 LLM.txt - Documentation Tool</title>
+  <title>Doc 2 LLM</title>
+  <meta name="description" content='Effortlessly generate Svelte-style documentation for your projects'>
+  <meta property="og_site_name" content='Doc 2 LLM'>
+  <meta property="og:url" content="https://doc-2-llm-promo.vercel.app/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content='Effortlessly generate Svelte-style documentation for your projects'>
+  <meta property="og:description" content='Effortlessly generate Svelte-style documentation for your projects'>
+  <meta property="og:image" content='logp.png'>
+  <meta name="twitter:site" content="@timscodebase">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:domain" content='https://doc-2-llm-promo.vercel.app/'>
+  <meta property="twitter:url" content='https://doc-2-llm-promo.vercel.app/'>
+  <meta name="twitter:title" content='Effortlessly generate Svelte-style documentation for your projects'>
+  <meta name="twitter:description" content='Effortlessly generate Svelte-style documentation for your projects'>
+  <meta name="twitter:image" content='logp.png'>
+  <meta name="twitter:site" content="@timscodebase">
   <link rel="stylesheet" href="/app.css" />
 </svelte:head>
 
