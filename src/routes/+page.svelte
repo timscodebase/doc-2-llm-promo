@@ -8,10 +8,7 @@
   <header>
     <img src="/logo.png" alt="Docs 2 LLM Logo" />
     <p>
-      Effortlessly generate <a href="https://svelte.dev/llms-small.txt">Svelte-style</a> documentation for your projects with 
-    </p>
-    <pre><code>doc-2-llm</code></pre>
-    <p>- the NPM package that bridges your code to LLM-friendly formats!</p>
+      Effortlessly generate <a href="https://svelte.dev/llms-small.txt">Svelte-style</a> documentation for your projects with doc-2-llm - the NPM package that bridges your code to LLM-friendly formats!</p>
     <a class="github-link" href="https://github.com/timscodebase/doc-2-llm"><iconify-icon icon="line-md:github-twotone"></iconify-icon><pre>See the code</pre>
     </a>
   </header>
