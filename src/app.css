@@ -1,0 +1,138 @@
+@import '@fontsource-variable/fira-code';
+@import '@fontsource-variable/roboto-flex';
+:root {
+  --white: rgb(233, 233, 233);
+  --black: rgb(32, 32, 32);
+  --gray: rgb(204, 204, 204);
+  --dark-gray: rgb(86, 85, 85);
+
+  --green-p3: oklch(88.68% 0.2985 135);
+  --green--fallback: rgb(122, 255, 0);
+  --green: var(--green-p3, var(--green--fallback));
+
+  --green-2-p3: oklch(88.83% 0.2417 144.53);
+  --green-2--fallback: rgb(88, 255, 103);
+  --green-2: var(--green-2-p3, var(--green-2--fallback));
+
+  --dark-green-p3: oklch(42.5% 0.1381 135);
+  --dark-green--fallback: rgb(40, 93, 0);
+  --dark-green: var(--dark-green-p3, var(--dark-green--fallback));
+
+  --primary: var(--green);
+  --primary-2: var(--green-2);
+  --bg: var(--black);
+  --bg-alt: var(--dark-gray);
+  --text: var(--white);
+
+
+  --code-font: 'Fira Code', monospace;
+  --body-font: 'Roboto Flex Variable', sans-serif;
+}
+
+/* prefers-color-scheme: dark */
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --primary: var(--green);
+    --bg: var(--black);
+    --bg-alt: var(--dark-gray);
+    --text: var(--white);
+  }
+}
+
+/* prefers-color-scheme: light */
+@media (prefers-color-scheme: light) {
+  :root {
+    color-scheme: light;
+    --primary: var(--dark-green);
+    --bg: var(--white);
+    --bg-alt: var(--gray);
+    --text: var(--black);
+  }
+}
+
+body {
+  font-family: var(--body-font);
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg);
+  color: var(--text);
+  font-size: clamp(32px, 3vw, 3rem);
+  line-height: 1.5;
+}
+
+code, pre, strong {
+  font-family: var(--code-font);
+  color: var(--green-2);
+}
+
+a, .text-primary {
+  color: var(--green);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--green-2);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+h2, h3, .text-primary-2 {
+  color: var(--primary-2);
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+}
+
+.container,section {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 2rem;
+
+  li {
+    margin-bottom: 1.25rem;
+  }
+}
+
+footer {
+  background-color: var(--bg-alt);
+  color: var(--text);
+  text-align: center;
+  padding: 1rem;
+  width: 100%;
+}
+
+.placeholder {
+  background-color: var(--primary);
+  height: 200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text);
+  font-style: italic;
+}
+
+.github-link {
+  width: fit-content;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  gap: 1rem;
+  text-align: center;
+  font-size: clamp(5rem, 8vw, 7.5rem);
+  padding: 0;
+
+  pre {
+    margin: 0;
+    padding: 0;
+    color: var(--primary);
+  }
+}
