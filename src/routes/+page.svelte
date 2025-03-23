@@ -8,7 +8,7 @@
   <header>
     <img src="/logo.png" alt="Docs 2 LLM Logo" />
     <p>
-      Effortlessly generate Svelte-style documentation for your projects with <strong>doc-2-llm</strong> – the NPM package that bridges your code to LLM-friendly formats!
+      Effortlessly generate Svelte-style documentation for your projects with <a href="https://svelte.dev/llms-small.txt">doc-2-llm</a> – the NPM package that bridges your code to LLM-friendly formats!
     </p>
     <a class="github-link" href="https://github.com/timscodebase/doc-2-llm"><iconify-icon icon="line-md:github-twotone"></iconify-icon><pre>See the code</pre>
     </a>
@@ -65,7 +65,8 @@
   </section>
 
   <footer>
-    <p>Get <strong>doc-2-llm</strong> today and streamline your Svelte documentation!</p>
-    <p><a href="https://github.com/yourusername/doc-2-llm" style="color: #fff;">GitHub Repo (Coming Soon)</a></p>
+    <p>Created by <a href="https://github.com/timscodebase">Tim Smith</a></p>
+    <p>Released under the <a href="https://github.com/timscodebase/doc-2-llm/blob/main/LICENSE">MIT License</a></p>
+    <p>Partners in Code {new Date().getFullYear()}</p>
   </footer>
 </main>

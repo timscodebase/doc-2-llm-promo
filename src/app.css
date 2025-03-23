@@ -54,11 +54,15 @@
 body {
   font-family: var(--body-font);
   margin: 0;
-  padding: 0;
+  padding: 0 1rem;
   background-color: var(--bg);
   color: var(--text);
-  font-size: clamp(32px, 3vw, 3rem);
+  font-size: clamp(1rem, 3vw, 3rem);
   line-height: 1.5;
+}
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 code, pre, strong {
@@ -87,8 +91,7 @@ header {
 
 .container,section {
   max-width: 800px;
-  margin: 2rem auto;
-  padding: 0 1rem;
+  margin: 0 auto;
 }
 
 ul {
@@ -105,7 +108,7 @@ footer {
   color: var(--text);
   text-align: center;
   padding: 1rem;
-  width: 100%;
+  margin: 0 -1rem;
 }
 
 .placeholder {
@@ -127,7 +130,7 @@ footer {
   justify-content: space-between; 
   gap: 1rem;
   text-align: center;
-  font-size: clamp(5rem, 8vw, 7.5rem);
+  font-size: clamp(2rem, 6vw, 5.5rem);
   padding: 0;
 
   pre {
